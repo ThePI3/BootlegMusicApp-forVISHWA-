@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="parent" prefHeight="600.0" prefWidth="1024.0" styleClass="parent" stylesheets="@css.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="main.LoginController">
+   <children>
+      <Label layoutX="323.0" layoutY="150.0" text="Sign into your account">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="uTF" alignment="CENTER" layoutX="288.0" layoutY="212.0" prefHeight="30.0" prefWidth="250.0" promptText="Email/Username" styleClass="textfields">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pTF" alignment="CENTER" layoutX="288.0" layoutY="252.0" prefHeight="30.0" prefWidth="250.0" promptText="Password" styleClass="textfields">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </PasswordField>
+      <JFXButton buttonType="RAISED" layoutX="363.0" layoutY="342.0" prefHeight="35.0" prefWidth="100.0" ripplerFill="WHITE" styleClass="buttons" text="Sign In" onAction="#login_app">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXCheckBox layoutX="356.0" layoutY="304.0" text="Remember Me" textFill="#2d2d2b" unCheckedColor="#2d2d2b">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </JFXCheckBox>
+      <Label layoutX="350.0" layoutY="403.0" text="Don't have an account?">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="420.0" styleClass="signup-link" text="Sign up">
+         <font>
+            <Font name="Calibri Light" size="14.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="WHITE" iconName="CLOSE" layoutX="1004.0" layoutY="18.0" onMouseClicked="#close_app" size="1.5em" stroke="BLACK" />
+   </children>
+</AnchorPane>

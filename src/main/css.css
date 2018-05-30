@@ -1,0 +1,34 @@
+.parent{
+    -fx-background-image:url(xd.jpg);
+    -fx-background-position:center;
+    -fx-background-repeat:no-repeat;
+    -fx-background-size:1024 600;
+}
+.label{
+    -fx-text-fill:#ffffff;
+}
+.textfields{
+    -fx-background-color:rgba(45,45,43,0.6);
+    -fx-cursor-color:white;
+    -fx-text-fill:#ffffff;
+}
+.buttons{
+    -fx-background-color:#42E24F;
+    -fx-text-fill:#ffffff;
+}
+.buttons:hover{
+    -fx-background-color:#42E24F;
+    -fx-text-fill:#ffffff;
+    -fx-border-color:#fff;
+    -fx-border-width:1px;
+}
+.signup-link{
+    -fx-text-fill:#42E24F;
+}
+.pane{
+
+}
+
+.icons{
+
+}

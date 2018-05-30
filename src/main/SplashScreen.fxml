@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parent" prefHeight="600.0" prefWidth="1024.0" style="-fx-background-image: xd.jpg;" styleClass="parent" stylesheets="@css.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SplashScreenController">
+    <children>
+        <Label layoutX="433.0" layoutY="259.0" prefHeight="83.0" prefWidth="159.0" text="Apollo">
+            <font>
+                <Font name="Impact" size="57.0" />
+            </font>
+         <effect>
+            <DropShadow color="#bbadad" />
+         </effect>
+        </Label>
+    </children>
+</AnchorPane>
